@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="headline">
+    <h1 class="judul">Youtube <span>Downloader</span></h1>
+  </div>
+  <div class="main-content">
+    <form id="downloadForm">
+        <input type="text" id="videourl" class="videourl" placeholder="Masukkan link video Youtube" required>
+        <button id="submitButton" class="submit-button" type="submit">Download</button>
+    </form>
+    <h3 class="status"></h3>
+    <h4 class="url" id="url">Link : <a href="">Go To Link</a></h4>
+    <h3 class="foother">Website By <span>@KenDeveloper</span></h3>
+  </div>
+  
+  <div class="loadingDisplay" id="loadingDisplay">
+    <div class="loadingDialog">
+      <div class="loaderArea">
+        <div class="loader"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
